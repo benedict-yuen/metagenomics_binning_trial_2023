@@ -2,7 +2,7 @@
 #
 #SBATCH --job-name binner
 #SBATCH --cpus-per-task=24
-#SBATCH --mem=200GB
+#SBATCH --mem=150GB
 #SBATCH --output=binner-%j.out
 #SBATCH --error=binner-%j.err
 #SBATCH --partition=medium
